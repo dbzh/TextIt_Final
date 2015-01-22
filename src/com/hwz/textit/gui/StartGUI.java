@@ -55,7 +55,6 @@ public class StartGUI {
 		printerButton.setBounds(10, 120, 100, 25);
 		tweetButton.setBounds(10, 160, 100, 25);
 		endButton.setBounds(10, 400, 100, 25);
-		aboutButton.setBounds(150, 400, 100, 25);
 
 		// add to panel
 		panel.add(emailButton);
@@ -79,7 +78,7 @@ public class StartGUI {
 	 * ActionListeners
 	 */
 
-	private static ActionListener setEmailButtonListener(JFrame frame) {
+	private ActionListener setEmailButtonListener(JFrame frame) {
 		ActionListener emailButtonListener = new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -91,7 +90,7 @@ public class StartGUI {
 		return emailButtonListener;
 	}
 
-	private static ActionListener setSMSButtonListener(JFrame frame) {
+	private ActionListener setSMSButtonListener(JFrame frame) {
 		ActionListener smsButtonListener = new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -103,7 +102,7 @@ public class StartGUI {
 		return smsButtonListener;
 	}
 
-	private static ActionListener setMMSButtonListener(JFrame frame) {
+	private ActionListener setMMSButtonListener(JFrame frame) {
 		ActionListener mmsButtonListener = new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -115,7 +114,7 @@ public class StartGUI {
 		return mmsButtonListener;
 	}
 
-	private static ActionListener setPrinterButtonListener(JFrame frame) {
+	private ActionListener setPrinterButtonListener(JFrame frame) {
 		ActionListener printerButtonListener = new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -127,7 +126,7 @@ public class StartGUI {
 		return printerButtonListener;
 	}
 
-	private static ActionListener setTweetButtonListener(JFrame frame) {
+	private ActionListener setTweetButtonListener(JFrame frame) {
 		ActionListener tweetButtonListener = new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -139,7 +138,7 @@ public class StartGUI {
 		return tweetButtonListener;
 	}
 
-	public static ActionListener setCancelButtonListener(JFrame frame) {
+	public ActionListener setCancelButtonListener(JFrame frame) {
 		ActionListener cancelButtonListener = new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -152,7 +151,7 @@ public class StartGUI {
 		return cancelButtonListener;
 	}
 
-	public static ActionListener setEndButtonListener(JFrame frame) {
+	public ActionListener setEndButtonListener(JFrame frame) {
 		ActionListener endButtonListener = new ActionListener() {
 
 			@Override

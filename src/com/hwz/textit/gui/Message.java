@@ -17,9 +17,9 @@ public class Message {
 	public static String[] users = { "simon@hwz.ch", "mauro@hwz.ch",
 			"luca@hwz.ch", "0761234576", "0783215489", "0793218954" };
 
-	// Cancle button redirectes to StartGui
+	// Cancel button redirectes to StartGui
 
-	public static ActionListener setCancelButtonListener(JFrame frame) {
+	public  ActionListener setCancelButtonListener(JFrame frame) {
 		ActionListener cancelButtonListener = new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -33,7 +33,7 @@ public class Message {
 	}
 
 	// Backbutton Brings closes current frame and reopens StartGUI
-	public static ActionListener setBackButtonListener(JFrame frame) {
+	public  ActionListener setBackButtonListener(JFrame frame) {
 		ActionListener backButtonListener = new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -47,7 +47,7 @@ public class Message {
 	}
 
 	// endbutton closes the frame
-	public static ActionListener setEndButtonListener(JFrame frame) {
+	public  ActionListener setEndButtonListener(JFrame frame) {
 		ActionListener endButtonListener = new ActionListener() {
 
 			@Override
